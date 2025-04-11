@@ -1,7 +1,7 @@
 --  Script de creación de la base de datos y tablas.
 
-CREATE DATABASE  gestionInventario;
-\c gestionInventario;
+CREATE DATABASE  gestioninventario;
+\c gestioninventario;
 
 
 CREATE TABLE clientes(
@@ -17,7 +17,7 @@ CREATE TABLE categorias (
 );
 
 CREATE TABLE proveedores (
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY NOT NULL,
     nombre VARCHAR (50) NOT NULL, 
     correo VARCHAR (100) NOT NULL,
     telefono VARCHAR (15) NOT NULL UNIQUE
@@ -25,9 +25,8 @@ CREATE TABLE proveedores (
 
 
 CREATE TABLE productos (
-	id serial PRIMARY KEY,
+	id serial PRIMARY KEY NOT NULL,
     nombre VARCHAR(50) NOT NULL ,
-    categoria VARCHAR (50) NOT NULL,
     precio DECIMAL (10,2) NOT NULL,
     stock INTEGER NOT NULL ,
     categoria_id INTEGER NOT NULL,
