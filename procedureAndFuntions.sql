@@ -1,0 +1,1 @@
+--  Procedimiento almacenado para gestionar ventas con transacciones
