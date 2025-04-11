@@ -1,7 +1,7 @@
 --  Script de creación de la base de datos y tablas.
 
-CREATE DATABASE  gestioninventario;
-\c gestioninventario;
+CREATE DATABASE  techzone;
+\c techzone;
 
 
 CREATE TABLE clientes(

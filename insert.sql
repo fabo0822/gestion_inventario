@@ -40,9 +40,9 @@ INSERT INTO clientes (nombre, correo, telefono) VALUES
 ('noel narnia', 'noel@gmail.com', '3117897897');
 
 INSERT INTO productos (nombre, precio ,stock, categoria_id, proveedores_id) VAlUES 
-('table hp 15 pulgadas', 150000, 10, 1, 1),
-('camara full hd 2025', 200000, 6, 2, 2),
-('xbox one', 700000, 12, 3, 3),
+('table hp 15 pulgadas', 150000, 2, 1, 1),
+('camara full hd 2025', 200000, 4, 2, 2),
+('xbox one', 700000, 4, 3, 3),
 ('ubutu 2.9', 500000, 20, 4, 4),
 ('mouse sencibilidad al tacto', 600000, 15, 5, 5),
 ('teclado compumax', 100000, 50, 6, 6),
@@ -66,9 +66,9 @@ INSERT INTO ventas (fecha, clientes_id) VALUES
 ('2024-07-03 12:00:00', 8),
 ('2024-08-12 17:20:00', 4),
 ('2024-09-25 15:40:00', 10),
-('2024-10-30 08:55:00', 6),
-('2024-11-14 10:10:00', 3),
-('2024-12-21 18:35:00', 7),
+('2025-04-01 08:55:00', 6),
+('2025-04-14 10:10:00', 3),
+('2025-04-21 18:35:00', 7),
 ('2025-01-09 13:00:00', 2),
 ('2025-02-26 16:15:00', 5),
 ('2025-03-28 09:45:00', 1);
